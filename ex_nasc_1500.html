@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha () {
+        document.write("<br>");
+    }
+
+    function mostra (frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var anoBase = 1500;
+    var anoMedia = 28;
+    var anoAtual = 2022;
+    var difAno = anoAtual - anoBase;
+
+    mostra("Passaram " + Math.round(difAno / anoMedia) + " gerações desde " + anoBase);
+
+</script>
